@@ -800,10 +800,10 @@ server:
         }
         seal "awskms" {
            region     = "eu-north-1"
-           access_key = "dsdfsdfdsfsdxx"
-           secret_key = "/sajnsdak+rwJcTeMgl/IW"
-           kms_key_id = "xxxx-ede9-4a7e-ac6e-xxxxxx"
-           endpoint   = "https://vpce-d5fbf-1lhwc0.eks.eu-north-1.vpce.amazonaws.com"
+           access_key = "ASIA6O4AG56SUDLKENRL"
+           secret_key = "UnV0s0VP9U4dF6HvmKX23IO4y0NxBRs8RKF0ZGpm"
+           kms_key_id = "088b6454-ede9-4a7e-ac6e-a32e93bd3acb"
+           endpoint   = "https://vpce-091f87d3320d7866c-kbavvmv5.eks.eu-north-1.vpce.amazonaws.com"
         }
 
 
