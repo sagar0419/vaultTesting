@@ -393,13 +393,13 @@ server:
       - host: vault.devopsbypr.in
         #paths: /
     ## Extra paths to prepend to the host configuration. This is useful when working with annotation based services.
-    extraPaths: []
-    # - path: /*
-    #   backend:
-    #     service:
-    #       name: ssl-redirect
-    #       port:
-    #         number: use-annotation
+    extraPaths:
+     - path: /*
+       backend:
+         service:
+           name: hashicorp-vault-ui
+           port:
+             number: 8200
     tls: []
     #  - secretName: chart-example-tls
     #    hosts:
