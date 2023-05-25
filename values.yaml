@@ -391,7 +391,7 @@ server:
     activeService: true
     hosts:
       - host: vault.devopsbypr.in
-        paths: /
+        #paths: /
     ## Extra paths to prepend to the host configuration. This is useful when working with annotation based services.
     extraPaths: []
     # - path: /*
