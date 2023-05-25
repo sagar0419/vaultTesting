@@ -799,11 +799,11 @@ server:
           path = "/vault/data"
         }
         seal "awskms" {
-           region     = "eu-north-1"
-           access_key = "ASIA6O4AG56SZ3CNLYK5"
-           secret_key = "zFJti71DLYtucbHZxgTSTOQXaLk4jZZeSAMtq0TX"
+          #  region     = "eu-north-1"
+          #  access_key = "ASIA6O4AG56SZ3CNLYK5"
+          #  secret_key = "zFJti71DLYtucbHZxgTSTOQXaLk4jZZeSAMtq0TX"
            kms_key_id = "088b6454-ede9-4a7e-ac6e-a32e93bd3acb"
-           endpoint   = "https://vpce-091f87d3320d7866c-kbavvmv5.eks.eu-north-1.vpce.amazonaws.com"
+          #  endpoint   = "https://vpce-091f87d3320d7866c-kbavvmv5.eks.eu-north-1.vpce.amazonaws.com"
         }
 
 
